@@ -1427,6 +1427,11 @@ th {
   #must {
     font-size: 24px;
   }
+
+  .move {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
