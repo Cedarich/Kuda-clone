@@ -385,14 +385,14 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial {
+/* .testimonial {
   min-width: 300px;
   padding: 20px;
   /* background: white; */
-  margin: 0 10px;
+/* margin: 0 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
+}  */
 
 .testimonial img {
   width: 50px;
@@ -1358,10 +1358,29 @@ th {
   .kuda-contitions {
     font-size: 12px;
   }
+
+  .logocontainer {
+    /* margin-left: 15px; */
+    margin-top: -180px;
+  }
 }
 
 /* Mobile Styles */
 @media (max-width: 676px) {
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .logocontainer {
+    margin-left: 15px;
+    margin-top: -180px;
+  }
+
   .three-card-container {
     display: flex;
     flex-direction: column;
