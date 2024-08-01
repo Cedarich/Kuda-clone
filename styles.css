@@ -1424,7 +1424,7 @@ th {
     border: none;
   }
 
-  .marquee-header h2 {
+  #must {
     font-size: 24px;
   }
 }
