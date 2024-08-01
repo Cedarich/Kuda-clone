@@ -331,6 +331,7 @@ a {
 .fourthpageimg img {
   /* width: 400px; */
   height: 400px;
+  margin-top: 50px;
 }
 .sixth a,
 .eighth a {
